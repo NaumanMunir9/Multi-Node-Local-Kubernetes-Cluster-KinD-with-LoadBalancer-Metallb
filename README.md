@@ -18,6 +18,12 @@ nodes:
 - role: worker
 ```
 
+#### Create KinD Cluster
+
+```shell
+kind create cluster --config kind-multi-node-cluster.yaml
+```
+
 #### Installing Metallb in KinD Kubernetes
 
 [Installing Metallb in KinD](https://kind.sigs.k8s.io/docs/user/loadbalancer/)
